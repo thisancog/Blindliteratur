@@ -1,5 +1,5 @@
 # Blindliteratur
-The code for [blindliteratur.de](http://blindliteratur.de), a dummy text generator in love with German literature classics.
+The code for [blindliteratur.de](http://blindliteratur.matthiasplanitzer.de), a dummy text generator in love with German literature classics.
 
 ### Installation
 Blindliteratur runs on PHP. Simply copy the files to a server.
