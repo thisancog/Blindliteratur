@@ -6,7 +6,7 @@ $(document).ready(function() {
 	}
 
 	max = {
-		'letters' 	: 4000,
+		'letters' 	: 5000,
 		'words' 	: 500,
 		'paras'		: 10,
 		'htmlp'		: 10,
