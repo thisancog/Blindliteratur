@@ -31,7 +31,7 @@ Evidently, the longer your text files, the better. For best results, they should
 - quotes in direct speech not recognized as part of their respective sentences
 - remains untested in Internet Explorer
 
-### Features for a better, future version
-- include an API for direct reference in external projects
-- include an option to generate random HTML markup
+### Features that might or might not be included in a better, future version
+- an API for direct reference in external projects
+- an option to generate random HTML markup
 - more sophisticated sentence recognition
