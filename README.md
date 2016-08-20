@@ -34,4 +34,3 @@ Evidently, the longer your text files, the better. For best results, they should
 ### Features for a better, future version
 - include an API
 - more sophisticated sentence recognition
-- more sophisticated 
