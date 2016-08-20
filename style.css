@@ -204,7 +204,7 @@ ul.open li.active:hover { border-color: #777; }
 #amount span {
 	flex-grow: 0;
 	flex-shrink: 0;
-	min-width: 55px;
+	min-width: 45px;
 	display: inline-block;
 }
 
@@ -231,12 +231,12 @@ ul.open li.active:hover { border-color: #777; }
 	position: relative;
 	z-index: 3;
 	flex-shrink: 0;
-	min-width: 52px;
+	min-width: 40px;
 	height: 0;
-	padding: 31px 5px 31px 5px;
-	margin-top: -18px;
+	padding: 25px 5px 25px 5px;
+	margin-top: -14px;
 	border: 1px solid #AAA;
-	border-radius: 60px;
+	border-radius: 30px;
 
 	font-weight: bold;
 	line-height: 0;
