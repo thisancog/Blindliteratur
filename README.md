@@ -35,3 +35,4 @@ Evidently, the longer your text files, the better. For best results, they should
 - an API for direct reference in external projects
 - an option to generate random HTML markup
 - more sophisticated sentence recognition
+- deep writing algorithm to mimic famous authors' styles
