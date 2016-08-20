@@ -33,4 +33,5 @@ Evidently, the longer your text files, the better. For best results, they should
 
 ### Features for a better, future version
 - include an API for direct reference in external projects
+- include an option to generate random HTML markup
 - more sophisticated sentence recognition
