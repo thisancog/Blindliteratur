@@ -2,7 +2,7 @@
 The code for [blindliteratur.de](http://blindliteratur.matthiasplanitzer.de), a dummy text generator in love with German literature classics.
 
 ### Installation
-Blindliteratur runs on PHP. Simply copy the files to a server.
+Blindliteratur runs on PHP. Simply copy the files to a server. This repository does not come with any literature. You will have to supply your own, e.g. download your favourite books from one of various online ressources.
 
 ### How to fill with literature
 Blindliteratur feeds on books to be placed in the `/data/content/` subfolder. First, create a `data.txt` file in this folder and fill it with pairs of author IDs and author names like this:
