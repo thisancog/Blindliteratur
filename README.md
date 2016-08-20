@@ -28,4 +28,10 @@ Evidently, the longer your text files, the better. For best results, they should
 
 ### Known issues
 - Text that is too short may lead to infinite loops in getSnippet()
+- quotes in direct speech not recognized as part of their respective sentences
 - remains untested in Internet Explorer
+
+### Features for a better, future version
+- include an API
+- more sophisticated sentence recognition
+- more sophisticated 
