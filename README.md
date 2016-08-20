@@ -32,5 +32,5 @@ Evidently, the longer your text files, the better. For best results, they should
 - remains untested in Internet Explorer
 
 ### Features for a better, future version
-- include an API
+- include an API for direct reference in external projects
 - more sophisticated sentence recognition
