@@ -103,20 +103,9 @@ $(document).ready(function() {
 	$('#htmlh').click(function() { changeType('htmlh'); });
 	$('#amount-bar, #disclaimer').click(function() { copySnippet(); });
 
-	$('#amount-bar').mousemove(function(e) {
-		var offset, relX, num, maximum, min, amount;
-		offset = $(this).offset(); 
-		xpos = e.pageX - offset.left;
 
-		maximum = $('#max-amount').html();
-		percent = xpos / $(this).outerWidth();
-		amount = Math.ceil(percent * maximum);
-		if (amount < 1) amount = 1;
-
-   		$('#amount-current-bar').css('width', percent * 100 + '%');
-   		$('#amount-current-value').html(amount);
-   		curlength = amount;
-   		cut();
+	$('#amount-bar').on("swipe touchmove mousemove", function(e) {
+		changeSnippetSize(e.pageX - $(this).offset().left);
 	});
 
 	$('#min-amount').on('click mousemove', function(e) {
@@ -133,6 +122,21 @@ $(document).ready(function() {
    		cut();
 	});
 });
+
+
+function changeSnippetSize(xpos) {
+	var num, maximum, percent, amount;
+
+	maximum = $('#max-amount').html();
+	percent = xpos / $('#amount-bar').outerWidth();
+	amount = Math.ceil(percent * maximum);
+	if (amount < 1) amount = 1;
+
+	$('#amount-current-bar').css('width', percent * 100 + '%');
+	$('#amount-current-value').html(amount);
+	curlength = amount;
+	cut();
+}
 
 function changeType(type) {
 	if (curtype !== type) {
