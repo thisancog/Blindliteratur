@@ -156,7 +156,7 @@ function changeType(type) {
 
 function cut() {
 	var str = data[curauthor]['pieces'][curpiece]['snippet'];
-	var chapter = (undefined !== data[curauthor]['pieces'][curpiece]['chapter']) ? ' - ' + data[curauthor]['pieces'][curpiece]['chapter'] : '';
+	var chapter = (undefined !== data[curauthor]['pieces'][curpiece]['chapter']) ? data[curauthor]['pieces'][curpiece]['chapter'] : '';
 	switch (curtype) {
 		case "words":
 			str = str.split(/\s+/).slice(0, curlength).join(" ");
@@ -188,7 +188,7 @@ function cut() {
     hiddenDiv.html(content + '<br class="lbr">');
     $('#result-text').css('height', parseInt(hiddenDiv.height()) + 'px');
 
-    $('#footer-middle').html(data[curauthor]['name'] + ': »' + data[curauthor]['pieces'][curpiece]['title'] + '«' + chapter);
+    $('#footer-middle').html(chapter);
 }
 
 function randomize() {
