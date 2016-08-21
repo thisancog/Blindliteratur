@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
 	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 
@@ -16,10 +17,6 @@
 	<link rel="shortcut icon" href="/img/favicon.ico">
 	<meta name="msapplication-config" content="/img/browserconfig.xml">
 	<meta name="theme-color" content="#fbfbfb">
-
-	<!-- Meta tags -->
-	<!-- og:tags -->
-	<!-- tw:tags -->
 
 	<title>Blindliteratur</title>
 </head>
