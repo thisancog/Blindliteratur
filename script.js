@@ -27,6 +27,7 @@ $(document).ready(function() {
 		cache: false,
 		success: function(response) {
 			data = response;
+			console.log(data);
 			Object.keys(data).forEach(function(key) {
 				$('#author').append('<li data-author-id="' + key + '">' + data[key]['name'] + '</li>');
 			});
