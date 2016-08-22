@@ -6,7 +6,7 @@
 			<div id="request">
 				<div id="shuffle"></div>
 				<div>
-					<ul id="author"></ul><div>: </div><ul id="piece"></ul>
+					<div><ul id="author"></ul></div><ul id="piece"></ul>
 				</div>
 			</div>
 			<div id="cut">
@@ -41,6 +41,5 @@
 			<div id="footer-right"><a href="/impressum">Impressum</a></div>
 		</div>
 	</div>
-<!-- Google Analytics -->
 </body>
 </html>
