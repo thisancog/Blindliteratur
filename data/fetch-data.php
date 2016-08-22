@@ -55,6 +55,17 @@
 	    				}
 
     					closedir($dir);
+
+    					$piecessorted = array();
+    					foreach($pieces as $p){ 
+							foreach($p as $key => $value){ 
+        						if (!isset($piecessorted[$key])){ 
+    	        					$piecessorted[$key] = array(); 
+	        					}
+        						$piecessorted[$key][] = $value; 
+							}
+						} 
+						array_multisort($piecessorted['title'], SORT_ASC, $pieces); 
     					
     					$data[$authorid] = array(
 							'name' 		=> $authorname,
