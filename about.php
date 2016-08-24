@@ -14,6 +14,5 @@
 			<div id="footer-right"><a href="/impressum">Impressum</a></div>
 		</div>
 	</div>
-<!-- Google Analytics -->
 </body>
 </html>
