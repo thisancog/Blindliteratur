@@ -30,7 +30,7 @@
 			<div id="result">
 				<div id="result-inner">
 					<div id="refresh"></div>
-					<textarea id="result-text"></textarea>
+					<textarea id="result-text" readonly></textarea>
 					<div id="copied"><span>Kopiert!</span></div>
 				</div>
 			</div>
@@ -41,5 +41,6 @@
 			<div id="footer-right"><a href="/impressum">Impressum</a></div>
 		</div>
 	</div>
+<!-- Google Analytics -->
 </body>
 </html>
