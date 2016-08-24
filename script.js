@@ -27,7 +27,6 @@ $(document).ready(function() {
 		cache: false,
 		success: function(response) {
 			data = response;
-			console.log(data);
 			Object.keys(data).forEach(function(key) {
 				$('#author').append('<li data-author-id="' + key + '">' + data[key]['name'] + '</li>');
 			});
@@ -122,6 +121,8 @@ $(document).ready(function() {
    		curlength = max[curtype];
    		cut();
 	});
+
+	realignCopylink();
 });
 
 
@@ -380,4 +381,21 @@ function getParags(str, length, type) {
 	}
 }
 
+
+function realignCopylink() {
+  	try {
+  		document.createEvent("TouchEvent");
+  		var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+  		var disc = $('#disclaimer');
+  		if (!iOS) {
+  			disc.detach();
+			$('#amount').addClass('mobile').append(disc);
+		} else {
+			disc.remove();
+		}
+	}
+  	catch (e) {
+  		return false;
+  	}
+}
 
