@@ -11,6 +11,5 @@
 			<div id="footer-middle"></div>
 		</div>
 	</div>
-<!-- Google Analytics -->
 </body>
 </html>
