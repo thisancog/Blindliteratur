@@ -108,9 +108,6 @@ ul {
 	font-size: 1.3em;
 	
 	background-color: #FBFBFB;
-	background-image: url(select-arrow.png);
-	background-position: right;
-	background-repeat: no-repeat;
 	cursor: pointer;
 }
 
@@ -441,8 +438,17 @@ ul.open li.active:hover { border-color: #777; }
 		background-size: 16px 16px;
 	}
 
+	#amount.mobile {
+		margin-bottom: 3em;
+	}
+
 	#disclaimer {
 		font-size: 0.5em;
+	}
+
+	.mobile #disclaimer {
+		top: 40px;
+		font-size: 0.75em;
 	}
 
 	#result-inner {
@@ -453,5 +459,9 @@ ul.open li.active:hover { border-color: #777; }
 	#result-text, .result-text {
 		margin: 0 0 0 -3px;
 		padding: 5px;
+	}
+
+	#copied {
+		width: calc(100% - 37px);
 	}
 }
